@@ -1,5 +1,5 @@
 [functions]
-  external_node_modules = ["express"]
+  included_files = ["node_modules/express/**"]
   node_bundler = "esbuild"
 
 [[redirects]]
