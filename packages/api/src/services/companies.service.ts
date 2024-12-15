@@ -1,11 +1,8 @@
-import * as fs from 'fs';
-import * as path from 'path';
+import rawData from '../data/data.json'
 
 const companyService = {
   getCompanies() {
-    const dataFilePath = path.resolve(__dirname, '../../src/data/data.json');
-    const rawData = fs.readFileSync(dataFilePath, 'utf8');
-    return JSON.parse(rawData);
+    return rawData;
   }
 }
 
