@@ -1,5 +1,5 @@
 [functions]
-  included_files = ["node_modules/express/**"]
+  included_files = ["node_modules/express/**", "src/data/data.json"]
   node_bundler = "esbuild"
 
 [[redirects]]
