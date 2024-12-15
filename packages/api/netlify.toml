@@ -9,5 +9,5 @@
   to = "/.netlify/functions/api/:splat"
 
 [build]
-  command = "echo 'Building Functions'"
-  functions = "netlify/functions"
+  command = "pnpm build"
+  functions = "dist/netlify/functions"
