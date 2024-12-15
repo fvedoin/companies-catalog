@@ -30,7 +30,7 @@ npm install -g pnpm
 Create a .env file in the root of your web project to store environment-specific variables. Example:
 
 ```env
-VITE_API_URL=http://localhost:3000
+VITE_API_URL=http://localhost:3000/api
 ```
 
 ## Running the Project
